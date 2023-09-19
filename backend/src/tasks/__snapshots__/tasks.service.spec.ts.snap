@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TasksService create should create and return a task 1`] = `
+{
+  "content": "Test task",
+  "done": false,
+  "id": 1694749621601,
+}
+`;
+
+exports[`TasksService findAll should return an array of tasks 1`] = `
+[
+  {
+    "content": "content 1",
+    "done": false,
+    "id": 1,
+  },
+  {
+    "content": "content 2",
+    "done": true,
+    "id": 2,
+  },
+]
+`;

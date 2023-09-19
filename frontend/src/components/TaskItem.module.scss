@@ -1,0 +1,15 @@
+.item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 20px;
+
+  &:nth-of-type(even) {
+    background: lightgray;
+  }
+}
+
+.done {
+  text-decoration: line-through;
+}
